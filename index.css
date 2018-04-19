@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+kbd {
+    width: 50px;
+    height: 40px;
+    background: linear-gradient(to bottom, #292929 0%,#111111 100%);
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Helvetica';
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: 6px;
+    border: 1px solid #373737; 
+    box-shadow: 0 0 0 1px #1A1B1C, 0 0 0 2px #1F2020, 0 3px 0 2px #080808; 
+    position: relative;
+}
+kbd > img {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    left: 2px;
+    bottom: 1px;
+}
+kbd > button {
+    position: absolute;
+    border: none;
+
+}
+kbd:hover {
+    cursor: pointer;
+}
+.row {
+    margin: 20px;
+}
+.row:nth-child(2) {
+    margin-left: 40px;
+}
+.row:nth-child(3) {
+    margin-left: 80px;
+}
