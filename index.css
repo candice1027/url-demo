@@ -2,9 +2,20 @@
     margin: 0;
     padding: 0;
 }
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align:center;
+    background:url('https://ws1.sinaimg.cn/large/7a23be02gy1fqj5jj0r0oj21do0lg1ky.jpg') no-repeat center center;
+    
+}
 .wrapper {
-    width: 800px;
-    margin: 0 auto;
+    background-color:rgba(255,255,255,.3);
+    border-radius: 10px;
+    
+
 }
 kbd {
     width: 50px;
@@ -33,7 +44,17 @@ kbd > img {
 kbd > button {
     position: absolute;
     border: none;
+    width: 29px;
+    height: 16px;
+    left: 20px;
+    top: 23px;
+    border-radius: 5px;
+    display: none;
+    background-color: rgba(255,255,255,0.6);
 
+}
+kbd .show {
+    display: block;
 }
 kbd:hover {
     cursor: pointer;
